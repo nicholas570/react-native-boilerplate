@@ -10,7 +10,8 @@
     "eject": "expo eject",
     "test": "jest --watchAll",
     "lint": "eslint --ext .ts --ext .tsx --fix",
-    "prettier:write": "prettier --write **/*.{js,jsx,ts,tsx,json} && prettier --write *.{js,jsx,ts,tsx,json}"
+    "prettier:write": "prettier --write **/*.{js,jsx,ts,tsx,json} && prettier --write *.{js,jsx,ts,tsx,json}",
+    "precommit": "lint-staged"
   },
   "jest": {
     "preset": "jest-expo"
